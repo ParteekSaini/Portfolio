@@ -41,15 +41,15 @@ function Profile() {
               <h1>
                 {" "}
                 <Typical
-                  loop={Infinity}
                   steps={[
                     "Enthusiastic Dev 🔴",
-                    1000,
+                    5000,
                     "Full Stack Developer 💻",
-                    1000,
+                    5000,
                     "MERN Stack Dev 😎",
-                    1000,
+                    5000,
                   ]}
+                  loop={Infinity}
                 />
               </h1>
               <span className="profile-role-tagline">
