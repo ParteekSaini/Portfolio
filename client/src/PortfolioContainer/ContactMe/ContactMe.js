@@ -69,29 +69,6 @@ export default function ContactMe(props) {
       setEmail("");
       setMessage("");
     }
-
-    // try {
-    //   let data = {
-    //     name,
-    //     email,
-    //     message,
-    //   };
-    //   setBool(true);
-    //   const res = await axios.post(`/contact`, data);
-    //   if () {
-    //
-    //   } else if (res.status === 200) {
-    //     setBanner(res.data.msg);
-    //     toast.success(res.data.msg);
-    //     setBool(false);
-
-    //     setName("");
-    //     setEmail("");
-    //     setMessage("");
-    //   }
-    // } catch (error) {
-    //   console.log(error);
-    // }
   };
 
   return (

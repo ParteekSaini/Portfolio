@@ -39,6 +39,7 @@
   line-height: 26px;
   margin: 0 0 2px;
 }
+
 .project-image img {
   border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
@@ -46,9 +47,22 @@
   -ms-border-radius: 15px 15px 15px 15px;
   -o-border-radius: 15px 15px 15px 15px;
 }
+.project-description {
+  margin-top: 5px;
+}
+.project-description,
+.project-sub-heading {
+  line-height: 0.9rem;
+  margin-bottom: 5px;
+}
 .project-description span {
   font-family: "Poppins Bold";
   font-size: 12px;
+}
+.project-sub-heading span {
+  font-family: "Poppins Bold";
+  font-size: 10px;
+  font-style: italic;
 }
 .project-links a {
   margin-right: 10px;

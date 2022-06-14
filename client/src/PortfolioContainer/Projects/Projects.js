@@ -7,6 +7,7 @@ import Animations from "../../utilities/Animations";
 import amazonProjectImage from "../../assets/Projects/amazon_project.png";
 import portfolioPprojectImage from "../../assets/Projects/portfolio.png";
 import netflixProjectImage from "../../assets/Projects/netflix.png";
+import nutriGuideProjectImage from "../../assets/Projects/nutri_guide.png";
 
 function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -55,18 +56,25 @@ function Projects(props) {
       liveDemoLink: "https://clone-ee6fa.firebaseapp.com/",
       githubLink: "https://github.com/ParteekSaini/AmazonCloneApp",
       description:
-        "An ecommerce Website designed to sell products online with payment system, and user authentication",
+        "An ecommerce Website with payment system, and user authentication",
       subHeading:
         "Technologies Used:  React JS, Express Js, Stripe, Firebase Cloud Functions, firestore",
     },
     {
       title: "Netflix Clone Website ",
       image: netflixProjectImage,
-      duration: { fromDate: "2020", toDate: "2021" },
       liveDemoLink: "https://netflix-clone-tmdb-app.herokuapp.com/",
       githubLink: "https://github.com/ParteekSaini/NetflixCloneProject",
       description: "Replicated Netflix website on React Js by using TMDB API",
       subHeading: "Technologies Used: React Js, TMDB API",
+    },
+    {
+      title: "NutriGuide Website ",
+      image: nutriGuideProjectImage,
+      liveDemoLink: "https://parteeksaini.github.io/NutriGuide/",
+      githubLink: "https://github.com/ParteekSaini/NutriGuide",
+      description: "A web-based application for health nutrition guidance ",
+      subHeading: "Technologies Used: HTML5/CSS3, and JavaScrip",
     },
   ];
 
@@ -99,6 +107,9 @@ function Projects(props) {
                       </div>
                       <div className="project-description">
                         <span>{project.description}</span>
+                      </div>
+                      <div className="project-sub-heading">
+                        <span>{project.subHeading}</span>
                       </div>
                       <div className="project-links">
                         <a href={project.githubLink} target="_blank">

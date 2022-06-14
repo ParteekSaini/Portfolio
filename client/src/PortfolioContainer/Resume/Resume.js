@@ -55,7 +55,7 @@ export default function Resume(props) {
     { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "interests.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
-    { label: "Projects", logoSrc: "projects.svg" },
+    // { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
@@ -175,36 +175,32 @@ export default function Resume(props) {
         );
       })}
     </div>,
-    /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
-      {projectsDetails.map((projectsDetails, index) => {
-        return (
-          <ResumeHeading
-            key={index}
-            heading={projectsDetails.title}
-            subHeading={projectsDetails.subHeading}
-            description={projectsDetails.description}
-            fromDate={projectsDetails.duration.fromDate}
-            toDate={projectsDetails.duration.toDate}
-            githubLink={projectsDetails.githubLink}
-            liveDemoLink={projectsDetails.liveDemoLink}
-          />
-        );
-      })}
-    </div>,
+    // /* PROJECTS */
+    // <div className="resume-screen-container" key="projects">
+    //   {projectsDetails.map((projectsDetails, index) => {
+    //     return (
+    //       <ResumeHeading
+    //         key={index}
+    //         heading={projectsDetails.title}
+    //         subHeading={projectsDetails.subHeading}
+    //         description={projectsDetails.description}
+    //         fromDate={projectsDetails.duration.fromDate}
+    //         toDate={projectsDetails.duration.toDate}
+    //         githubLink={projectsDetails.githubLink}
+    //         liveDemoLink={projectsDetails.liveDemoLink}
+    //       />
+    //     );
+    //   })}
+    // </div>,
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Teaching"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        heading="Astronomy"
+        description="I am fond of Astronomy. Sometimes, even during the day I read and watch documentaries about working of universe even if its just for 5 minutes! Learning about Black Holes, Neutron Stars, and distant galaxies fulfill my hunger of curiosity and invigorates my soul."
       />
       <ResumeHeading
-        heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
-      />
-      <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        heading="Badminton"
+        description="Badminton is the sport that I love playing. I was introduced to badminton from an early age by my father. I have also won couple of inter college badminton tournaments and I was the captain of my college team during graduation in India."
       />
     </div>,
   ];
