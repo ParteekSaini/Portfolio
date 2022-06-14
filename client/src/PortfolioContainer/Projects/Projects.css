@@ -1,0 +1,109 @@
+.projects-section .project-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50px 50px 50px 0px;
+  -webkit-border-radius: 50px 50px 50px 0px;
+  -moz-border-radius: 50px 50px 50px 0px;
+  -ms-border-radius: 50px 50px 50px 0px;
+  -o-border-radius: 50px 50px 50px 0px;
+}
+.projects-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.85;
+  background-color: #1f2235;
+}
+.projects-section {
+  padding: 80px 0 80px;
+  background-image: url("../../../src/assets/Testimonial/bg-1.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  /* z-index: -1; */
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
+}
+.project-title span {
+  color: #ff5823;
+  font-family: "Poppins Bold";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin: 0 0 2px;
+}
+.project-image img {
+  border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -ms-border-radius: 15px 15px 15px 15px;
+  -o-border-radius: 15px 15px 15px 15px;
+}
+.project-description span {
+  font-family: "Poppins Bold";
+  font-size: 12px;
+}
+.project-links a {
+  margin-right: 10px;
+}
+.project-links a i {
+  color: #111;
+}
+.project-links a i:hover {
+  color: #ff5823;
+  transform: scale(1.5);
+}
+.non-deployment-text {
+  font-family: "Poppins Bold";
+  font-size: 10px;
+}
+.owl-dots {
+  text-align: center;
+  margin: 10px;
+}
+
+.owl-dot {
+  display: absolute;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #ddd !important;
+  opacity: 0.8;
+  margin: 0 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.owl-dot.active {
+  background-color: #ff5823 !important;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.owl-prev i {
+  color: #fff;
+}
+.owl-next i {
+  color: #fff;
+}
+.owl-nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.owl-prev {
+  margin-right: 10px;
+}
+.footer-image img {
+  max-width: 100%;
+  height: 130px;
+  z-index: 1;
+}

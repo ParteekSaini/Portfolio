@@ -4,12 +4,13 @@
   flex-direction: column;
   justify-content: center;
   min-height: fit-content;
-  margin: 120px 0;
 }
 .resume-card {
   display: flex;
   height: 360px;
   width: 1000px;
+  padding-right: 10px;
+  box-shadow: 0 0 20px -2px #1f2235;
 }
 .resume-bullets {
   height: 100%;

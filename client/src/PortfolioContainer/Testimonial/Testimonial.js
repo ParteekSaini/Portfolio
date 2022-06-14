@@ -38,7 +38,7 @@ function Testimonial(props) {
   };
 
   return (
-    <div>
+    <div className="testimonial-container">
       <ScreenHeading
         title={"Testimonial"}
         subHeading={"What My Client Say About Me"}

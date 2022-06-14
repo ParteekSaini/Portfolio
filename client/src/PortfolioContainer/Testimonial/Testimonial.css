@@ -35,6 +35,10 @@
   background-color: white;
   padding: 30px;
   border-radius: 50px 50px 50px 0px;
+  -webkit-border-radius: 50px 50px 50px 0px;
+  -moz-border-radius: 50px 50px 50px 0px;
+  -ms-border-radius: 50px 50px 50px 0px;
+  -o-border-radius: 50px 50px 50px 0px;
 }
 
 .testimonial-section .testi-item p {
