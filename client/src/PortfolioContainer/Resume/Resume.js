@@ -21,14 +21,14 @@ export default function Resume(props) {
         <div className="resume-main-heading">
           <div className="heading-bullet"></div>
           <span>{props.heading ? props.heading : ""}</span>
-          {/* {props.fromDate && props.toDate ? (
+          {props.fromDate && props.toDate ? (
             <div className="heading-date">
               {props.fromDate + "-" + props.toDate}
             </div>
           ) : (
             <div></div>
-          )} */}
-          {props?.githubLink && (
+          )}
+          {/* {props?.githubLink && (
             <div className="coloz-icons">
               <div className="github-link">
                 <a href={props.githubLink} target="_blank">
@@ -39,7 +39,7 @@ export default function Resume(props) {
                 </a>
               </div>
             </div>
-          )}
+          )} */}
         </div>
         <div className="resume-sub-heading">
           <span>{props.subHeading ? props.subHeading : ""}</span>
@@ -69,44 +69,6 @@ export default function Resume(props) {
     { skills: "CSS", ratingPercentage: 84 },
   ];
 
-  const projectsDetails = [
-    {
-      title: "Personal Portfolio Website",
-      duration: { fromDate: "2022", toDate: "2022" },
-      liveDemoLink: "https://www.google.com/",
-      githubLink: "https://github.com/ParteekSaini/Portfolio",
-      description:
-        "A Personal Portfolio website to showcase all my details and projects at one place.",
-      subHeading: "Technologies Used: React JS, Bootsrap",
-    },
-    {
-      title: "Amazon Clone App ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      liveDemoLink: "https://clone-ee6fa.firebaseapp.com/",
-      githubLink: "https://github.com/ParteekSaini/AmazonCloneApp",
-      description:
-        "An ecommerce Website designed to sell products online wth payment system integration, and user authentication",
-      subHeading:
-        "Technologies Used:  React JS, Express Js, Stripe, Firebase Cloud Functions, firestore",
-    },
-    {
-      title: "Netflix Clone Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      liveDemoLink: "https://netflix-clone-tmdb-app.herokuapp.com/",
-      githubLink: "https://github.com/ParteekSaini/NetflixCloneProject",
-      description: "Replicated Netflix website on React Js by using TMDB API",
-      subHeading: "Technologies Used: React Js, TMDB API",
-    },
-    {
-      title: "Netflix Clone Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      liveDemoLink: "https://netflix-clone-tmdb-app.herokuapp.com/",
-      githubLink: "https://github.com/ParteekSaini/NetflixCloneProject",
-      description: "Replicated Netflix website on React Js by using TMDB API",
-      subHeading: "Technologies Used: React Js, TMDB API",
-    },
-  ];
-
   const resumeDetails = [
     /* EDUCATION */
     <div className="resume-screen-container" key="education">
@@ -125,7 +87,7 @@ export default function Resume(props) {
         toDate={"2020"}
       />
       <ResumeHeading
-        heading={"Deenbandhu Chhotu Ram University of Science and Technology"}
+        heading={"Deenbandhu Chhotu Ram University"}
         subHeading={"BACHELOR’S IN ELECTRONICS & COMMUNICATION "}
         fromDate={"2014"}
         toDate={"2018"}
@@ -135,10 +97,10 @@ export default function Resume(props) {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Red Finch Media"}
+          heading={"Red Finch Media (Calgary, Canada)"}
           subHeading={"WEB DEVELOPER INTERN"}
-          fromDate={"2021"}
-          toDate={"2021"}
+          fromDate={"May 2021"}
+          toDate={"Aug 2021"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
@@ -150,6 +112,27 @@ export default function Resume(props) {
           <span className="resume-description-text">
             Assist seniors in developing full-stack web apps for production
             using frameworks such as React.js, and Node.js/Express.js
+          </span>
+          <br />
+        </div>
+      </div>
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Green Leaf IT Consulting (Delhi, India)"}
+          subHeading={"JUNIOR WEB DEVELOPER"}
+          fromDate={"Jan 2019"}
+          toDate={"Dec 2019"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Assisted in development of web application, using HTML/CSS, PHP,
+            MySQL, and Apache server
+          </span>
+        </div>
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Designed front-end interface using HTML/CSS, maintaining up-to-date
+            interface and experience for end users
           </span>
           <br />
         </div>
@@ -175,23 +158,7 @@ export default function Resume(props) {
         );
       })}
     </div>,
-    // /* PROJECTS */
-    // <div className="resume-screen-container" key="projects">
-    //   {projectsDetails.map((projectsDetails, index) => {
-    //     return (
-    //       <ResumeHeading
-    //         key={index}
-    //         heading={projectsDetails.title}
-    //         subHeading={projectsDetails.subHeading}
-    //         description={projectsDetails.description}
-    //         fromDate={projectsDetails.duration.fromDate}
-    //         toDate={projectsDetails.duration.toDate}
-    //         githubLink={projectsDetails.githubLink}
-    //         liveDemoLink={projectsDetails.liveDemoLink}
-    //       />
-    //     );
-    //   })}
-    // </div>,
+
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading

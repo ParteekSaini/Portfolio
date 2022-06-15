@@ -14,13 +14,12 @@ function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Full stack web developer with background knowledge of MERN stacks with React context API, along with a knack of building applications with utmost efficiency. With a Post Baccalaureate Diploma I hope to obtain a challenging position in an organization sustaining my growth with long-term tenure and growing with the company attitude.",
     highlights: {
       bullets: [
         "Full Stack web development",
         "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Mnanagement",
+        "React and React Context API",
         "Building REST API",
         "Managing database",
       ],

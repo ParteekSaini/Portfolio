@@ -91,9 +91,9 @@ export default function ContactMe(props) {
           <a href="https://github.com/ParteekSaini" target="_blank">
             <i className="fa fa-github"></i>
           </a>
-          <a href="#" target="_blank">
+          {/* <a href="#" target="_blank">
             <i className="fa fa-instagram"></i>
-          </a>
+          </a> */}
         </div>
         <div className="back-form">
           <div className="img-back">

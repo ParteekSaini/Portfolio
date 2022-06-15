@@ -130,6 +130,7 @@ button .load img {
 .col i {
   padding: 7px;
   color: #fff;
+  font-size: 25px;
 }
 .col i:hover {
   transform: scale(1.5);

@@ -25,9 +25,9 @@ function Profile() {
               <a href="https://github.com/ParteekSaini" target="_blank">
                 <i className="fa fa-github"></i>
               </a>
-              <a href="#" target="_blank">
+              {/* <a href="#" target="_blank">
                 <i className="fa fa-instagram"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="profile-details-name">
@@ -47,7 +47,7 @@ function Profile() {
                     5000,
                     "Full Stack Developer 💻",
                     5000,
-                    "MERN Stack Dev 😎",
+                    "Front End Dev 😎",
                     5000,
                   ]}
                   loop={Infinity}

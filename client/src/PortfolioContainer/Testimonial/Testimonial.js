@@ -1,15 +1,20 @@
 import React from "react";
 import "./Testimonial.css";
 import OwlCarousel from "react-owl-carousel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import pradeepImage from "../../assets/Testimonial/pradeep.png";
+import navinderImage from "../../assets/Testimonial/navinder.png";
+import chanderImage from "../../assets/Testimonial/chander.png";
 
 function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
-    if (screen.fadeInScreen !== props.id) return;
+    if (screen?.fadeInScreen !== props?.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
   const fadeInSubscription =
@@ -57,9 +62,9 @@ function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Parteek and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      It was nice hiring this guy for my e-commerce project.He
+                      delivered even more than i can imagine. I recommend him
+                      for you.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -70,7 +75,7 @@ function Testimonial(props) {
                         <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt" />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
                         <i className="fa fa-star" />
@@ -78,12 +83,22 @@ function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/lady.png"
-                      alt="no internet connection"
-                    />
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={navinderImage} alt="no internet connection" />
+                    <h5>
+                      Navinder Banwait{<span>&nbsp;&nbsp;&nbsp;</span>}
+                      <span>
+                        <a
+                          href="https://www.linkedin.com/in/navinder-kaur-banwait-56981218/"
+                          target="_blank"
+                        >
+                          <FontAwesomeIcon
+                            className="font-awesome-icon"
+                            icon={faLinkedin}
+                          />
+                        </a>
+                      </span>
+                    </h5>
+                    <p>Manager, Red Finch Media</p>
                   </div>
                 </div>
               </div>
@@ -113,12 +128,9 @@ function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/lady.png"
-                      alt="no internet connection"
-                    />
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={chanderImage} alt="no internet connection" />
+                    <h5>Chander Mohan</h5>
+                    <p>Project Manager, Greenleaf</p>
                   </div>
                 </div>
               </div>
@@ -127,9 +139,9 @@ function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Parteek and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      When he delivered my job, my head spinned, it was so nice
+                      and he implemented every functionality i requested for.
+                      Thank you.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -140,7 +152,7 @@ function Testimonial(props) {
                         <i className="fa fa-star" />
                       </li>
                       <li>
-                        <i className="fa fa-star-half-alt" />
+                        <i className="fa fa-star" />
                       </li>
                       <li>
                         <i className="fa fa-star" />
@@ -148,12 +160,24 @@ function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img
-                      src="img/testimonial/lady.png"
-                      alt="no internet connection"
-                    />
-                    <h5>Daisy Dominic</h5>
-                    <p>CEO InansGlobal</p>
+                    <img src={pradeepImage} alt="no internet connection" />
+
+                    <h5>
+                      Pradeep Pandey{<span>&nbsp;&nbsp;&nbsp;</span>}
+                      <span>
+                        <a
+                          href="https://www.linkedin.com/in/pradeep-pandey-103030a/"
+                          target="_blank"
+                        >
+                          <FontAwesomeIcon
+                            className="font-awesome-icon"
+                            icon={faLinkedin}
+                          />
+                        </a>
+                      </span>
+                    </h5>
+
+                    <p>Vice President, Greenleaf</p>
                   </div>
                 </div>
               </div>
