@@ -9,6 +9,7 @@ import portfolioPprojectImage from "../../assets/Projects/portfolio.png";
 import netflixProjectImage from "../../assets/Projects/netflix.png";
 import nutriGuideProjectImage from "../../assets/Projects/nutri_guide.png";
 import hatchwaysImage from "../../assets/Projects/hatchways.png";
+import internationalGuideImage from "../../assets/Projects/international_student_guide.png";
 
 function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -22,6 +23,7 @@ function Projects(props) {
     loop: true,
     margin: 0,
     nav: true,
+    slideBy: 3,
     navText: [
       '<i class="fa fa-arrow-left"></i>',
       '<i class="fa fa-arrow-right"></i>',
@@ -59,7 +61,7 @@ function Projects(props) {
       description:
         "An ecommerce Website with payment system, and user authentication",
       subHeading:
-        "Technologies Used:  React JS, Express Js, Stripe, Firebase Cloud Functions, firestore",
+        "Technologies Used:  React JS, Express Js, Stripe, Firebase Cloud Functions, firestore, and React Context API",
     },
     {
       title: "Netflix Clone Website ",
@@ -76,6 +78,18 @@ function Projects(props) {
       githubLink: "https://github.com/ParteekSaini/NutriGuide",
       description: "A web-based application for health nutrition guidance ",
       subHeading: "Technologies Used: HTML5/CSS3, and JavaScript",
+    },
+    {
+      title: "International Student Guide",
+      image: internationalGuideImage,
+
+      githubLink:
+        "https://github.com/ParteekSaini/InternationalStudentGuideGit",
+      nonDeploymentText: "Not Deployed Yet",
+      description:
+        "Developed full stack React app for international students aspiring to study in Canada",
+      subHeading:
+        "Technologies Used: React.js, Express.js, Node.js, MongoDB, Postman,",
     },
     {
       title: "Hatchways front-end asscessment",

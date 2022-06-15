@@ -10,11 +10,8 @@ function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icons">
-              <a
-                href="https://www.facebook.com/parteek.saini.756/"
-                target="_blank"
-              >
-                <i className="fa fa-facebook-square"></i>
+              <a href="https://github.com/ParteekSaini" target="_blank">
+                <i className="fa fa-github"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/parteek-saini-95a122158/"
@@ -22,9 +19,13 @@ function Profile() {
               >
                 <i className="fa fa-linkedin"></i>
               </a>
-              <a href="https://github.com/ParteekSaini" target="_blank">
-                <i className="fa fa-github"></i>
+              <a
+                href="https://www.facebook.com/parteek.saini.756/"
+                target="_blank"
+              >
+                <i className="fa fa-facebook-square"></i>
               </a>
+
               {/* <a href="#" target="_blank">
                 <i className="fa fa-instagram"></i>
               </a> */}
@@ -33,7 +34,7 @@ function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Parteek</span>
+              Hey, I'M <span className="highlighted-text">Parteek</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -43,19 +44,18 @@ function Profile() {
                 {" "}
                 <Typical
                   steps={[
+                    "React Developer 😎",
+                    5000,
                     "Enthusiastic Dev 🔴",
                     5000,
-                    "Full Stack Developer 💻",
-                    5000,
-                    "Front End Dev 😎",
+                    "Full-Stack Developer 💻",
                     5000,
                   ]}
                   loop={Infinity}
                 />
               </h1>
               <span className="profile-role-tagline">
-                Knack of building applications with front and back end
-                operations.
+                Interst in creating web apps using latest technologies.
               </span>
             </span>
           </div>
