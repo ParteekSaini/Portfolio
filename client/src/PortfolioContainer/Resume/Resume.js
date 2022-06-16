@@ -28,18 +28,6 @@ export default function Resume(props) {
           ) : (
             <div></div>
           )}
-          {/* {props?.githubLink && (
-            <div className="coloz-icons">
-              <div className="github-link">
-                <a href={props.githubLink} target="_blank">
-                  <i
-                    className="fa fa-github fa-lg"
-                    style={{ color: "black" }}
-                  ></i>
-                </a>
-              </div>
-            </div>
-          )} */}
         </div>
         <div className="resume-sub-heading">
           <span>{props.subHeading ? props.subHeading : ""}</span>
@@ -104,8 +92,8 @@ export default function Resume(props) {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Designed and Developed layouts on front-end using HTML5/CSS3,
-            JavaScript, and Bootstrap
+            Designed front-end layouts using HTML5/CSS3, JavaScript, and
+            Bootstrap
           </span>
         </div>
         <div className="experience-description">
@@ -123,13 +111,13 @@ export default function Resume(props) {
           fromDate={"Jan 2019"}
           toDate={"Dec 2019"}
         />
-        <div className="experience-description">
+        <div className="experience-description secondJobDescription">
           <span className="resume-description-text">
-            Assisted in development of web application, using HTML/CSS, PHP,
-            MySQL, and Apache server
+            Developed web application, using HTML/CSS, PHP, MySQL, and Apache
+            server
           </span>
         </div>
-        <div className="experience-description">
+        <div className="experience-description secondJobDescription">
           <span className="resume-description-text">
             Designed front-end interface using HTML/CSS, maintaining up-to-date
             interface and experience for end users

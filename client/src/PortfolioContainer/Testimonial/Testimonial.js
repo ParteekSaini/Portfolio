@@ -62,9 +62,9 @@ function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      It was nice hiring this guy for my e-commerce project.He
-                      delivered even more than i can imagine. I recommend him
-                      for you.
+                      It was nice working with Parteek during his internship. He
+                      delivered even more than I imagined. I recommend him for
+                      you.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -107,9 +107,8 @@ function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Parteek and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      Parteek is awesome, delivers exactly what you want and is
+                      a great guy as well, thanks for all your hard work.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -139,9 +138,9 @@ function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      When he delivered my job, my head spinned, it was so nice
-                      and he implemented every functionality i requested for.
-                      Thank you.
+                      When he first came to Greenleaf, he was an intern , and by
+                      the time he left Greenleaf for further studies he was a
+                      matured developer.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
