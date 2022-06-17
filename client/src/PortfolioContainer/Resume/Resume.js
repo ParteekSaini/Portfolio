@@ -71,8 +71,8 @@ export default function Resume(props) {
       <ResumeHeading
         heading={"Kurukshetra University"}
         subHeading={"POST GRADUATE DIPLOMA IN COMPUTER APPLICATIONS"}
-        fromDate={"2019"}
-        toDate={"2020"}
+        fromDate={"2018"}
+        toDate={"2019"}
       />
       <ResumeHeading
         heading={"Deenbandhu Chhotu Ram University"}

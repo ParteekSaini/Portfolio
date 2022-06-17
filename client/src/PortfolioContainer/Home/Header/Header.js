@@ -73,6 +73,7 @@ function Header() {
                 : "header-options"
             }
           >
+            <FontAwesomeIcon className="header-hamburger-bars" icon={faBars} />
             {getHeaderOptions()}
           </div>
         </div>
