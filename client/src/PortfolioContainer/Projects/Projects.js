@@ -60,6 +60,8 @@ function Projects(props) {
       githubLink: "https://github.com/ParteekSaini/AmazonCloneApp",
       description:
         "An ecommerce Website with payment system, and user authentication",
+      warning:
+        "The deployment of this project may show deceptive warning on google, but a request has been made to remove that warning from this website as it contains a payment system. Appropriate instructions are posted on payment page to run a successful test case",
       subHeading:
         "Technologies Used:  React JS, Express Js, Stripe, Firebase Cloud Functions, firestore, and React Context API",
     },
@@ -144,6 +146,12 @@ function Projects(props) {
                   <a href={project.youtubeLink} target="_blank">
                     <i class="fa fa-youtube"></i>
                   </a>
+                )}
+                {project?.warning && (
+                  <p className="warning">
+                    {"* "}
+                    {project?.warning}
+                  </p>
                 )}
               </div>
             </div>
